@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 public class StepTracker
 {
- private ArrayList<Integer>steps;
+ private ArrayList <Integer> steps;
  private int minActive;
  public StepTracker(int min){
   minActive = min;
