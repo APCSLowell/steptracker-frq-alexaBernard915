@@ -20,6 +20,9 @@ public class StepTracker
   return total; 
  }
  public double averageSteps(){
+  if(steps.size() == 0){
+   return 0.0; 
+  }
   double total = 0; 
   for(int i = 0; i<steps.size(); i++){
    total += steps.get(i); 
